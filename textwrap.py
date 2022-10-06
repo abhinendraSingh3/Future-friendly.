@@ -1,8 +1,7 @@
 import textwrap
-
 def wrap(string, max_width):
-    
- return textwrap.fill(string,width=4)
+    string=textwrap.wrap(string,max_width)
+    return '\n'.join(string)
 
 if __name__ == '__main__':
     string, max_width = input(), int(input())
