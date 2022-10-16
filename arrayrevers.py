@@ -10,8 +10,7 @@ def reverseArray(a): #this is the logic
     new_ar=[]
     while a:
       new_ar.append(a.pop())
-    return new_ar
-    # Write your code here
+    return new_ar 
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
