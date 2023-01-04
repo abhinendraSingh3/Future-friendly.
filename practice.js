@@ -34,5 +34,6 @@
 // function extractDetails(items){
 //     return [items.firstN,items.lastN].join(" ");
 // }
-// console.log(extractDetails())
+console.log(extractDetails())
 
+   
